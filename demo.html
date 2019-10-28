@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>resizeasaurus</title>
+		<link rel="stylesheet" href="resizeasaurus.css">
+		<script type="module" src="resizeasaurus.js"></script>
+
+		<style>
+		body {
+			font-family: system-ui, sans-serif;
+		}
+		.demo-flex {
+			display: flex;
+			flex-wrap: wrap;
+		}
+		.demo-flex-cell {
+			flex-grow: 1;
+			flex-basis: 10em;
+			padding: 1em;
+		}
+		</style>
+	</head>
+	<body>
+		<main>
+			<h1>resizeasaurus</h1>
+			<p>Source code available at <a href="https://github.com/filamentgroup/resizeasaurus">https://github.com/filamentgroup/resizeasaurus</a>.</p>
+
+			<resize-asaurus>
+				<div class="demo-flex">
+					<div class="demo-flex-cell" style="background-color: #fea3aa;">Cell 1</div>
+					<div class="demo-flex-cell" style="background-color: #f8b88b;">Cell 2</div>
+					<div class="demo-flex-cell" style="background-color: #faf884;">Cell 3</div>
+					<div class="demo-flex-cell" style="background-color: #baed91;">Cell 4</div>
+					<div class="demo-flex-cell" style="background-color: #b2cefe;">Cell 5</div>
+					<div class="demo-flex-cell" style="background-color: #f2a2e8;">Cell 6</div>
+				</div>
+			</resize-asaurus>
+		</main>
+	</body>
+</html>

@@ -1,0 +1,22 @@
+.resizeasaurus-size {
+  display: none;
+}
+@supports (resize: horizontal) {
+  .resizeasaurus {
+    display: block;
+    padding: 0 0 0;
+    resize: horizontal;
+    overflow: auto;
+    border-bottom: 3px solid #ccc;
+    margin: 0 0 6em;
+    background-color: #f9f9f9;
+  }
+  .resizeasaurus-size {
+    display: block;
+    text-align: right;
+    bottom: 0;
+    padding-right: 1.5em;
+    font-size: 0.8125em; /* 13px /16 */
+    color: #666;
+  }
+}

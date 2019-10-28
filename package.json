@@ -1,0 +1,22 @@
+{
+  "name": "resizeasaurus",
+  "version": "1.0.0",
+  "description": "A little utility to add resizing behavior to test intrinsically sized responsive components.",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filamentgroup/resizeasaurus.git"
+  },
+  "author": {
+    "name": "Zach Leatherman",
+    "company": "Filament Group",
+    "email": "zach@filamentgroup.com",
+    "url": "http://filamentgroup.com/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/filamentgroup/resizeasaurus/issues"
+  },
+  "homepage": "https://github.com/filamentgroup/resizeasaurus#readme"
+}
