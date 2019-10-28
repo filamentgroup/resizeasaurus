@@ -4,7 +4,7 @@
 @supports (resize: horizontal) {
   .resizeasaurus {
     display: block;
-    padding: 0 0 0;
+    padding: 0;
     resize: horizontal;
     overflow: auto;
     border-bottom: 3px solid #ccc;
