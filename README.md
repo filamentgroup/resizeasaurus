@@ -2,6 +2,8 @@
 
 A little utility to add resizing behavior to test intrinsically sized responsive components.
 
+## [Demo](https://filamentgroup.github.io/resizeasaurus/demo.html)
+
 ## Usage
 
 ```
