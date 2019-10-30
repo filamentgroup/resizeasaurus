@@ -2,7 +2,15 @@
 
 A little utility to add resizing behavior to test intrinsically sized responsive components.
 
-## [Demo](https://filamentgroup.github.io/resizeasaurus/demo.html)
+## Install
+
+```
+npm install resizeasaurus --save
+```
+
+## Demo
+
+* [https://filamentgroup.github.io/resizeasaurus/demo.html](https://filamentgroup.github.io/resizeasaurus/demo.html)
 
 ## Usage
 
