@@ -13,7 +13,7 @@
   }
   /* Workaround for Safari refusing to go below initial content width */
   .resizeasaurus:active {
-    width: 1px;
+    width: var(--resizeasaurus-initial-width, 1px);
   }
   .resizeasaurus-size {
     display: block;

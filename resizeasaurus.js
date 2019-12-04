@@ -16,8 +16,14 @@ if( "customElements" in window) {
       }
 
       if("ResizeObserver" in window) {
+        let isSet = false;
         this.resizer = new ResizeObserver(entries => {
-          this.size.innerHTML = this.clientWidth + "px";
+          let width = this.clientWidth + "px";
+          this.size.innerHTML = width;
+          if(!window.safari && !isSet) {
+            isSet = true;
+            this.style.setProperty("--resizeasaurus-initial-width", width);
+          }
         });
         this.resizer.observe(this);
       }
