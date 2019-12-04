@@ -1,6 +1,6 @@
 {
   "name": "resizeasaurus",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A little utility to add resizing behavior to test intrinsically sized responsive components.",
   "scripts": {
   },
