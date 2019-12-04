@@ -11,6 +11,10 @@
     margin: 0 0 6em;
     background-color: #f9f9f9;
   }
+  /* Workaround for Safari refusing to go below initial content width */
+  .resizeasaurus:active {
+    width: 1px;
+  }
   .resizeasaurus-size {
     display: block;
     text-align: right;
